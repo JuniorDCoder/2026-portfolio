@@ -46,12 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE FULL STACK DEVELOPER & TECH LEADER BUILDING IMPACTFUL SOLUTIONS",
+  subTitle:
+    "PASSIONATE FULL STACK DEVELOPER & TECH LEADER BUILDING IMPACTFUL SOLUTIONS",
   skills: [
     emoji(
       "⚡ Build modern, responsive web applications with Vue, React, Next.js, Nuxt.js, Laravel, Django, and FastAPI"
     ),
-    emoji("⚡ Design and develop AI-powered voice assistants, blockchain solutions (Solidity), and conversational interfaces"),
+    emoji(
+      "⚡ Design and develop AI-powered voice assistants, blockchain solutions (Solidity), and conversational interfaces"
+    ),
     emoji(
       "⚡ Create IoT solutions with embedded systems (ESP32, Raspberry Pi) and mobile apps with React Native, Flutter & Ionic"
     ),
@@ -275,7 +278,6 @@ const workExperiences = {
       ]
     }
   ]
-
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -295,7 +297,8 @@ const bigProjects = {
     {
       image: require("./assets/images/asapchop.jpeg"),
       projectName: "AsapChop",
-      projectDesc: "Food ordering and delivery platform with advanced routing strategy, Firebase backend, real-time tracking, and seamless user experience.",
+      projectDesc:
+        "Food ordering and delivery platform with advanced routing strategy, Firebase backend, real-time tracking, and seamless user experience.",
       footerLink: [
         {
           name: "View Project",
@@ -306,7 +309,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "AI Interviewer",
-      projectDesc: "Next.js application powered by Vapi, Gemini AI, and Firebase for conducting intelligent job interviews with natural conversation flow.",
+      projectDesc:
+        "Next.js application powered by Vapi, Gemini AI, and Firebase for conducting intelligent job interviews with natural conversation flow.",
       footerLink: [
         {
           name: "View Project",
@@ -317,7 +321,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "MedSync Voice Assistant",
-      projectDesc: "Voice-powered medication companion for elderly users, providing reminders, dosage information, and health tracking through conversational AI.",
+      projectDesc:
+        "Voice-powered medication companion for elderly users, providing reminders, dosage information, and health tracking through conversational AI.",
       footerLink: [
         {
           name: "Learn More",
@@ -328,7 +333,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Smart Pipe Leakage Detection",
-      projectDesc: "IoT solution using ESP32 and dual sensors for real-time pipeline monitoring, leak detection, and automatic blocking with web-based dashboard.",
+      projectDesc:
+        "IoT solution using ESP32 and dual sensors for real-time pipeline monitoring, leak detection, and automatic blocking with web-based dashboard.",
       footerLink: [
         {
           name: "View Project",
@@ -339,7 +345,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Pharmacy Management System",
-      projectDesc: "Complete Vue.js + Firebase solution with authentication, role-based access, analytics dashboard, inventory management, and image uploads.",
+      projectDesc:
+        "Complete Vue.js + Firebase solution with authentication, role-based access, analytics dashboard, inventory management, and image uploads.",
       footerLink: [
         {
           name: "View Project",
@@ -350,7 +357,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Money Dey",
-      projectDesc: "Personal AI powered finance management app built with React Native and Firebase, featuring expense tracking, budgeting, and financial insights.",
+      projectDesc:
+        "Personal AI powered finance management app built with React Native and Firebase, featuring expense tracking, budgeting, and financial insights.",
       footerLink: [
         {
           name: "Learn More",
@@ -399,7 +407,8 @@ const achievementSection = {
     },
     {
       title: "IoT Safety Solutions",
-      subtitle: "Designed and deployed real-world IoT prototypes for pipeline leakage detection and safety monitoring systems used in production environments.",
+      subtitle:
+        "Designed and deployed real-world IoT prototypes for pipeline leakage detection and safety monitoring systems used in production environments.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "IoT Projects Logo",
       footerLink: [
@@ -408,12 +417,11 @@ const achievementSection = {
     },
     {
       title: "Engineering Leadership at Traitz Tech",
-      subtitle: "Successfully led multiple engineering initiatives, established technical standards, and mentored development teams to deliver high-quality products.",
+      subtitle:
+        "Successfully led multiple engineering initiatives, established technical standards, and mentored development teams to deliver high-quality products.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Leadership Logo",
-      footerLink: [
-        {name: "Traitz Tech", url: "https://traitz.tech"}
-      ]
+      footerLink: [{name: "Traitz Tech", url: "https://traitz.tech"}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -447,14 +455,13 @@ const blogSection = {
 
 const talkSection = {
   title: "MENTORSHIP & SPEAKING",
-  subtitle: emoji(
-    "I LOVE TO SHARE KNOWLEDGE AND HELP OTHERS GROW IN TECH 🚀"
-  ),
+  subtitle: emoji("I LOVE TO SHARE KNOWLEDGE AND HELP OTHERS GROW IN TECH 🚀"),
 
   talks: [
     {
       title: "Mentoring Module 1: Personal Development & Opportunity Readiness",
-      subtitle: "Building confidence, communication skills, and preparing for scholarships and jobs",
+      subtitle:
+        "Building confidence, communication skills, and preparing for scholarships and jobs",
       slides_url: "http://oppnergy.com/level-1/",
       event_url: "http://oppnergy.com/level-1/"
     }
