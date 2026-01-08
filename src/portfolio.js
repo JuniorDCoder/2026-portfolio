@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Foryoung Junior Ngu",
+  username: "Junior Ngu",
   title: "Hi all, I'm Junior (DCoder)",
   subTitle: emoji(
     "A passionate, faith-driven technologist 🚀 building practical, impactful solutions across AI, Web, IoT, and Blockchain Technology. I love turning ideas into working systems, leading teams, and mentoring the next generation of developers."
